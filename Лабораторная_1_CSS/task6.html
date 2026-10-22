@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Выполнил: студент гр. 209 БЗУ Баянов Дияз, ИИМРТ, каф. АСУ -->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №1 CSS — Задание 6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+        }
+
+        /* Обычная ссылка */
+        a.demo-link {
+            color: #4385f5;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+        a.demo-link:visited {
+            color: #ff9f43;
+        }
+        a.demo-link:hover {
+            color: #ff5277;
+        }
+        a.demo-link:active {
+            color: #55e655;
+        }
+
+        /* Псевдоссылка */
+        .demo-pseudolink {
+            color: #000000;
+            font-size: 18px;
+            cursor: pointer;
+            user-select: none;
+            display: inline-block;
+        }
+        .demo-pseudolink:hover {
+            opacity: 0.45;
+        }
+        .demo-pseudolink:active {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <p><a href="task5.html">&larr; Задание 5</a> | <a href="task7.html">Задание 7 &rarr;</a></p>
+    <hr>
+<h2>Задание 6</h2>
+
+    <p><a href="#demo" class="demo-link">link</a></p>
+    <p><span class="demo-pseudolink">pseudolink</span></p>
+
+</body>
+</html>

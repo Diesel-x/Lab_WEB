@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Выполнил: студент гр. 209 БЗУ Баянов Дияз, ИИМРТ, каф. АСУ -->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №2 CSS — Задание 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+            background-color: #fbfbfb;
+        }
+
+        h2 {
+            color: #222222;
+        }
+
+        /* Панель горизонтального меню */
+        .nav-horizontal {
+            background-color: goldenrod;
+            box-shadow: 5px 5px gray;
+            font-size: 20px;
+            padding: 5px;
+            overflow: hidden; /* Очистка плавающих элементов */
+        }
+
+        /* Пункты меню на свойстве float: left */
+        .nav-horizontal .links {
+            float: left;
+            display: block;
+            text-decoration: none;
+            padding: 8px 24px;
+            background-color: gold;
+            color: darkblue;
+            border-bottom: 2px groove gray;
+            border-right: 2px ridge gray;
+            margin-right: 2px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Эффект при наведении */
+        .nav-horizontal .links:hover {
+            background-color: goldenrod;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <p><a href="task2.html">Задание 2 &rarr;</a></p>
+    <hr>
+
+    <h1>Лабораторная работа №2 по CSS</h1>
+    <h2>Задание 1: Горизонтальное меню (свойство float)</h2>
+
+    <!-- Горизонтальное меню на основе свойства float -->
+    <div class="nav-horizontal">
+        <a href="#home" class="links">Главная</a>
+        <a href="#news" class="links">Новости</a>
+        <a href="#contacts" class="links">Контакты</a>
+        <a href="#author" class="links">Информация об авторе</a>
+    </div>
+
+    <hr>
+    <p align="center">
+        <font size="2" color="#666666">
+            Выполнил: студент гр. 209 БЗУ Баянов Дияз | Факультет ИИМРТ, Кафедра АСУ
+        </font>
+    </p>
+
+</body>
+</html>

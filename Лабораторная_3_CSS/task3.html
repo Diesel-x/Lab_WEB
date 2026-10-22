@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- Выполнил: студент гр. 209 БЗУ Баянов Дияз, ИИМРТ, каф. АСУ -->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №3 CSS — Задание 3: Раскрывающееся вниз вертикальное меню</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        h1, h2 {
+            margin: 6px 0 16px 0;
+        }
+
+        .menu-wrapper {
+            margin-top: 25px;
+            display: inline-block;
+        }
+
+        /* Вертикальное меню */
+        .v-accordion {
+            width: 230px;
+            background: #dcdcdc;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+            border: 1px solid #b5b5b5;
+        }
+
+        /* Пункт меню */
+        .v-accordion .accordion-item {
+            display: block;
+        }
+
+        /* Ссылки меню */
+        .v-accordion a.main-link {
+            display: block;
+            padding: 13px 20px;
+            text-decoration: none;
+            color: #111111;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            background: linear-gradient(to bottom, #f2f2f2, #d5d5d5);
+            border-bottom: 1px solid #bfbfbf;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+
+        /* Наведение на пункт меню */
+        .v-accordion .accordion-item:hover > a.main-link {
+            background: linear-gradient(to bottom, #8f8f8f, #6e6e6e);
+            color: #ffffff;
+        }
+
+        /* Раскрывающееся подменю */
+        .v-accordion .sub-list {
+            display: none; /* Скрыто по умолчанию */
+            background: #f0f0f0;
+            border-bottom: 1px solid #c0c0c0;
+        }
+
+        .v-accordion .sub-list a {
+            display: block;
+            padding: 10px 18px;
+            text-decoration: none;
+            color: #222222;
+            font-size: 14px;
+            text-align: center;
+            background-color: #ededed;
+            border-bottom: 1px solid #dddddd;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+
+        .v-accordion .sub-list a:hover {
+            background-color: #dddddd;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        /* Отображение подменю */
+        .v-accordion .accordion-item:hover > .sub-list {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <p><a href="task2.html">&larr; Задание 2</a></p>
+    <hr>
+
+    <h1>Лабораторная работа №3 по CSS</h1>
+
+    <div class="menu-wrapper">
+        <div class="v-accordion">
+
+            <!-- Главная -->
+            <div class="accordion-item">
+                <a href="#home" class="main-link">ГЛАВНАЯ</a>
+                <div class="sub-list">
+                    <a href="#home-page">Главная страница</a>
+                    <a href="#contacts-sub">Контакты</a>
+                    <a href="#about-sub">О Нас</a>
+                </div>
+            </div>
+
+            <!-- Отделы продаж -->
+            <div class="accordion-item">
+                <a href="#sales" class="main-link">ОТДЕЛЫ ПРОДАЖ</a>
+            </div>
+
+            <!-- Поставщики -->
+            <div class="accordion-item">
+                <a href="#suppliers" class="main-link">ПОСТАВЩИКИ</a>
+                <div class="sub-list">
+                    <a href="#design">ООО "Дизайн"</a>
+                    <a href="#art">ООО "Арт"</a>
+                    <a href="#photo">ООО "Фотостиль"</a>
+                </div>
+            </div>
+
+            <!-- Наши услуги -->
+            <div class="accordion-item">
+                <a href="#services" class="main-link">НАШИ УСЛУГИ</a>
+            </div>
+
+            <!-- Контакты -->
+            <div class="accordion-item">
+                <a href="#contacts" class="main-link">КОНТАКТЫ</a>
+            </div>
+
+            <!-- О нас -->
+            <div class="accordion-item">
+                <a href="#about" class="main-link">О НАС</a>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <p align="center">
+        <font size="2" color="#666666">
+            Выполнил: студент гр. 209 БЗУ Баянов Дияз | Факультет ИИМРТ, Кафедра АСУ
+        </font>
+    </p>
+
+</body>
+</html>

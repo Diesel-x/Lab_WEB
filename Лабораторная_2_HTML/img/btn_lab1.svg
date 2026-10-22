@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 44" width="280" height="44">
+  <defs>
+    <linearGradient id="btnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3182ce"/>
+      <stop offset="100%" stop-color="#2b6cb0"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="278" height="42" rx="6" fill="url(#btnGrad)" stroke="#1a4971" stroke-width="1"/>
+  <g transform="translate(18, 12)">
+    <path d="M 16 10 L 4 10 M 9 5 L 4 10 L 9 15" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="155" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Лабораторная работа №1</text>
+</svg>

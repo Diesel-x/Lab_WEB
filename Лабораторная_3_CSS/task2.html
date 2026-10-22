@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- Выполнил: студент гр. 209 БЗУ Баянов Дияз, ИИМРТ, каф. АСУ -->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №3 CSS — Задание 2: Вертикальное меню с выпадающим подменю</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        h1, h2 {
+            margin: 6px 0 16px 0;
+        }
+
+        .menu-wrapper {
+            margin-top: 25px;
+            display: inline-block;
+        }
+
+        /* Вертикальное меню */
+        .v-menu {
+            width: 220px;
+            background: #e6e6e6;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+            border: 1px solid #cccccc;
+        }
+
+        /* Пункт меню */
+        .v-menu .item-wrapper {
+            position: relative;
+            display: block;
+        }
+
+        /* Ссылки пунктов меню */
+        .v-menu a.main-link {
+            display: block;
+            padding: 13px 20px;
+            text-decoration: none;
+            color: #111111;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            background: linear-gradient(to bottom, #f2f2f2, #dcdcdc);
+            border-bottom: 1px solid #bfbfbf;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+
+        /* При наведении на пункт меню */
+        .v-menu .item-wrapper:hover > a.main-link {
+            background: linear-gradient(to bottom, #999999, #777777);
+            color: #ffffff;
+        }
+
+        /* Выпадающее подменю */
+        .v-menu .submenu {
+            position: absolute;
+            left: 100%;
+            top: 0;
+            width: 190px;
+            display: none; /* Скрыто по умолчанию */
+            background: #e6e6e6;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+            border: 1px solid #cccccc;
+            z-index: 100;
+        }
+
+        /* Ссылки подменю */
+        .v-menu .submenu a {
+            display: block;
+            padding: 12px 18px;
+            text-decoration: none;
+            color: #222222;
+            font-size: 14px;
+            text-align: center;
+            background: linear-gradient(to bottom, #f7f7f7, #e8e8e8);
+            border-bottom: 1px solid #cccccc;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+
+        .v-menu .submenu a:hover {
+            background: linear-gradient(to bottom, #888888, #666666);
+            color: #ffffff;
+        }
+
+        /* Отображение подменю */
+        .v-menu .item-wrapper:hover > .submenu {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <p><a href="task1.html">&larr; Задание 1</a> | <a href="task3.html">Задание 3 &rarr;</a></p>
+    <hr>
+
+    <h1>Лабораторная работа №3 по CSS</h1>
+
+    <div class="menu-wrapper">
+        <div class="v-menu">
+
+            <!-- Главная -->
+            <div class="item-wrapper">
+                <a href="#home" class="main-link">ГЛАВНАЯ</a>
+                <div class="submenu">
+                    <a href="#home-page">Главная страница</a>
+                    <a href="#contacts-sub">Контакты</a>
+                    <a href="#about-sub">О Нас</a>
+                </div>
+            </div>
+
+            <!-- Отделы продаж -->
+            <div class="item-wrapper">
+                <a href="#sales" class="main-link">ОТДЕЛЫ ПРОДАЖ</a>
+            </div>
+
+            <!-- Поставщики -->
+            <div class="item-wrapper">
+                <a href="#suppliers" class="main-link">ПОСТАВЩИКИ</a>
+                <div class="submenu">
+                    <a href="#design">ООО "Дизайн"</a>
+                    <a href="#art">ООО "Арт"</a>
+                    <a href="#photo">ООО "Фотостиль"</a>
+                </div>
+            </div>
+
+            <!-- Наши услуги -->
+            <div class="item-wrapper">
+                <a href="#services" class="main-link">НАШИ УСЛУГИ</a>
+            </div>
+
+            <!-- Контакты -->
+            <div class="item-wrapper">
+                <a href="#contacts" class="main-link">КОНТАКТЫ</a>
+            </div>
+
+            <!-- О нас -->
+            <div class="item-wrapper">
+                <a href="#about" class="main-link">О НАС</a>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <p align="center">
+        <font size="2" color="#666666">
+            Выполнил: студент гр. 209 БЗУ Баянов Дияз | Факультет ИИМРТ, Кафедра АСУ
+        </font>
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="200" height="260">
+  <defs>
+    <linearGradient id="grad_book5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4b1248"/>
+      <stop offset="100%" stop-color="#f0c27b"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="196" height="256" rx="8" fill="url(#grad_book5)" stroke="#333333" stroke-width="1.5"/>
+  <rect x="14" y="16" width="172" height="228" rx="4" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="8" y="2" width="8" height="256" fill="#000000" fill-opacity="0.25"/>
+  <circle cx="100" cy="90" r="32" fill="#ffffff" fill-opacity="0.15"/>
+  <text x="100" y="97" font-family="'Times New Roman', serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">📖</text>
+  <text x="100" y="155" font-family="'Arial', sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1984</text>
+  <text x="100" y="185" font-family="'Georgia', serif" font-size="12" fill="#e0e0e0" text-anchor="middle" font-style="italic">Дж. Оруэлл</text>
+</svg>

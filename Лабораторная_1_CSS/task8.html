@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Выполнил: студент гр. 209 БЗУ Баянов Дияз, ИИМРТ, каф. АСУ -->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №1 CSS — Задание 8</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+        }
+
+        /* Заголовок с первой красной буквой Я */
+        .brand-title {
+            font-size: 24px;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        .brand-title::first-letter {
+            color: #ff3b69;
+        }
+
+        /* Параграф текста с первой синей строкой */
+        .brand-desc {
+            font-size: 19px;
+            line-height: 1.45;
+            color: #000000;
+            max-width: 550px;
+        }
+        .brand-desc::first-line {
+            color: #4a90e2;
+        }
+    </style>
+</head>
+<body>
+
+    <p><a href="task7.html">&larr; Задание 7</a></p>
+    <hr>
+<h2>Задание 8</h2>
+
+    <div class="brand-title">Яндекс</div>
+    <div class="brand-desc">
+        российская транснациональная компания,<br>
+        владеющая одноимённой системой поиска в Сети,<br>
+        интернет-порталами и службами в нескольких странах.
+    </div>
+
+</body>
+</html>

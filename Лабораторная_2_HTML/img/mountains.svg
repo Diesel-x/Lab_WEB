@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a90e2"/>
+      <stop offset="100%" stop-color="#87ceeb"/>
+    </linearGradient>
+    <linearGradient id="mountGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#556b2f"/>
+      <stop offset="100%" stop-color="#2e4a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#skyGrad)"/>
+  <circle cx="340" cy="70" r="40" fill="#ffd700" opacity="0.9"/>
+  <polygon points="40,240 160,100 280,240" fill="#6c7a89"/>
+  <polygon points="120,150 160,100 200,150" fill="#ffffff"/>
+  <polygon points="160,260 270,120 380,260" fill="#525e6b"/>
+  <polygon points="240,160 270,120 300,160" fill="#ffffff"/>
+  <path d="M0,230 Q100,200 200,230 T400,230 L400,300 L0,300 Z" fill="url(#mountGrad)"/>
+  <rect x="0" y="270" width="400" height="30" fill="#1b5e20"/>
+  <text x="200" y="288" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold" text-anchor="middle">Горный пейзаж</text>
+</svg>

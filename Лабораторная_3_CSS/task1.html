@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!-- Выполнил: студент гр. 209 БЗУ Баянов Дияз, ИИМРТ, каф. АСУ -->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №3 CSS — Задание 1: Трехколоночный макет</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 15px 25px;
+            background-color: #f7f9fb;
+            color: #222222;
+        }
+
+        /* Навигация */
+        .page-nav {
+            margin-bottom: 10px;
+        }
+
+        /* Заголовок сайта */
+        .site-header {
+            text-align: center;
+            font-size: 46px;
+            font-weight: 900;
+            font-style: italic;
+            color: red;
+            letter-spacing: 2px;
+            margin: 15px 0 20px 0;
+            text-shadow: 1px 1px 0 #ffcccc;
+        }
+
+        /* Горизонтальное меню */
+        .nav-bar {
+            background-color: #d8ebfa;
+            border: 1px solid #7cb5ec;
+            border-bottom: 2px solid #5a9cd6;
+            overflow: hidden;
+            margin-bottom: 18px;
+        }
+
+        .nav-bar a {
+            float: left;
+            display: block;
+            padding: 12px 28px;
+            text-decoration: none;
+            color: #000000;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            border-right: 1px solid #99c7f4;
+            transition: background 0.2s;
+        }
+
+        .nav-bar a:hover {
+            background-color: #bce0fd;
+            color: #0d47a1;
+        }
+
+        /* Контейнер */
+        .container {
+            width: 100%;
+        }
+
+        /* Колонки */
+        .column-left {
+            float: left;
+            width: 150px;
+            margin-right: 15px;
+        }
+
+        .column-right {
+            float: right;
+            width: 160px;
+            margin-left: 15px;
+        }
+
+        .column-center {
+            overflow: hidden;
+            background-color: #bde0fe;
+            border: 2px solid #7cb5ec;
+            border-radius: 8px;
+            padding: 20px 15px;
+            min-height: 480px;
+        }
+
+        /* Боковые блоки */
+        .side-block {
+            background-color: #ffffff;
+            border: 2px solid #7cb5ec;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+        }
+
+        .side-title {
+            background-color: #8ecae6;
+            color: #000000;
+            font-weight: bold;
+            font-size: 14px;
+            text-align: center;
+            padding: 6px;
+            border-bottom: 1px solid #7cb5ec;
+        }
+
+        .side-content {
+            padding: 10px;
+            font-size: 12px;
+            line-height: 1.45;
+            color: #333333;
+        }
+
+        .side-content ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        .side-content li {
+            margin-bottom: 6px;
+        }
+
+        /* Сетка карточек */
+        .cards-grid {
+            overflow: hidden;
+            text-align: center;
+        }
+
+        /* Карточки */
+        .base {
+            float: left;
+            position: relative;
+            width: 110px;
+            height: 110px;
+            margin: 12px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        /* Стили карточек */
+        .card-rss {
+            background: linear-gradient(135deg, #ff9900, #ff5500);
+        }
+        .card-twitter {
+            background: linear-gradient(135deg, #1da1f2, #0d8ddb);
+        }
+        .card-linkedin {
+            background: linear-gradient(135deg, #0077b5, #005582);
+        }
+        .card-cloud {
+            background: linear-gradient(135deg, #4a69bd, #1e3799);
+        }
+        .card-code {
+            background: linear-gradient(135deg, #2ed573, #1e90ff);
+        }
+        .card-design {
+            background: linear-gradient(135deg, #ff4757, #ff6b81);
+        }
+
+        .card-icon {
+            font-size: 44px;
+            line-height: 110px;
+            text-align: center;
+            color: #ffffff;
+            user-select: none;
+        }
+
+        /* Наплывающий слой */
+        .layer {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(10, 40, 90, 0.75);
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 110px;
+            box-sizing: border-box;
+            transition: left 0.3s ease;
+        }
+
+        /* Наведение на карточку */
+        .base:hover .layer {
+            left: 0;
+        }
+
+        /* Очистка потока */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-nav">
+        <p><a href="task2.html">Задание 2 &rarr;</a></p>
+        <hr>
+    </div>
+
+    <!-- Заголовок макета -->
+    <div class="site-header">
+        INSTRUCTIONAL DESIGN
+    </div>
+
+    <!-- Горизонтальное меню -->
+    <div class="nav-bar">
+        <a href="#home">ГЛАВНАЯ</a>
+        <a href="#sales">ОТДЕЛЫ ПРОДАЖ</a>
+        <a href="#suppliers">ПОСТАВЩИКИ</a>
+        <a href="#contacts">КОНТАКТЫ</a>
+        <a href="#about">О НАС</a>
+    </div>
+
+    <!-- Основной блок -->
+    <div class="container clearfix">
+
+        <!-- Левая колонка -->
+        <div class="column-left">
+            <div class="side-block">
+                <div class="side-title">Новости</div>
+                <div class="side-content">
+                    В нашей дизайн-студии открылся новый отдел веб-разработки и адаптивной вёрстки. Мы предлагаем полный цикл создания современных сайтов, качественную поддержку и индивидуальный подход к каждому клиенту.
+                </div>
+            </div>
+        </div>
+
+        <!-- Правая колонка -->
+        <div class="column-right">
+            <div class="side-block">
+                <div class="side-title">Контакты</div>
+                <div class="side-content">
+                    <b>Адрес:</b> г. Уфа, ул. Революционная, д. 169<br><br>
+                    <b>Телефон:</b><br>8-999-999-99-99
+                </div>
+            </div>
+
+            <div class="side-block">
+                <div class="side-title">Услуги</div>
+                <div class="side-content">
+                    <ul>
+                        <li>Разработка дизайна</li>
+                        <li>Разработка веб-приложений</li>
+                        <li>Разработка веб-сервисов</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Центральная колонка -->
+        <div class="column-center">
+            <div class="cards-grid">
+
+                <!-- Карточка 1: RSS -->
+                <div class="base card-rss">
+                    <div class="card-icon">📡</div>
+                    <div class="layer">Лента RSS</div>
+                </div>
+
+                <!-- Карточка 2: Новости -->
+                <div class="base card-twitter">
+                    <div class="card-icon">🐦</div>
+                    <div class="layer">Новости</div>
+                </div>
+
+                <!-- Карточка 3: Партнёры -->
+                <div class="base card-linkedin">
+                    <div class="card-icon">💼</div>
+                    <div class="layer">Партнёры</div>
+                </div>
+
+                <!-- Карточка 4: Облако -->
+                <div class="base card-cloud">
+                    <div class="card-icon">☁️</div>
+                    <div class="layer">Облако</div>
+                </div>
+
+                <!-- Карточка 5: Сервисы -->
+                <div class="base card-code">
+                    <div class="card-icon">💻</div>
+                    <div class="layer">Сервисы</div>
+                </div>
+
+                <!-- Карточка 6: Дизайн -->
+                <div class="base card-design">
+                    <div class="card-icon">🎨</div>
+                    <div class="layer">Дизайн</div>
+                </div>
+
+                <!-- Карточка 7: Подписки -->
+                <div class="base card-rss">
+                    <div class="card-icon">📢</div>
+                    <div class="layer">Подписки</div>
+                </div>
+
+                <!-- Карточка 8: Сеть связи -->
+                <div class="base card-twitter">
+                    <div class="card-icon">🌐</div>
+                    <div class="layer">Сеть связи</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <hr>
+    <p align="center">
+        <font size="2" color="#666666">
+            Выполнил: студент гр. 209 БЗУ Баянов Дияз | Факультет ИИМРТ, Кафедра АСУ
+        </font>
+    </p>
+
+</body>
+</html>

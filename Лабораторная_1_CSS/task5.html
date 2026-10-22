@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Выполнил: студент гр. 209 БЗУ Баянов Дияз, ИИМРТ, каф. АСУ -->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №1 CSS — Задание 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+        }
+
+        .links-column a {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #0000ff;
+        }
+
+        /* Выделение внешних ссылок (не my-site.ru) */
+        .links-column a[href*="//"]:not([href*="my-site.ru"]) {
+            color: #ff5277;
+        }
+    </style>
+</head>
+<body>
+
+    <p><a href="task4.html">&larr; Задание 4</a> | <a href="task6.html">Задание 6 &rarr;</a></p>
+    <hr>
+<h2>Задание 5</h2>
+
+    <div class="links-column">
+        <a href="http://my-site.ru/page0">Ссылка 0</a>
+        <a href="https://external-example.org/1">Ссылка 1</a>
+        <a href="http://my-site.ru/page2">Ссылка 2</a>
+        <a href="http://my-site.ru/page3">Ссылка 3</a>
+        <a href="https://google.com">Ссылка 4</a>
+        <a href="https://github.com">Ссылка 5</a>
+    </div>
+
+</body>
+</html>
