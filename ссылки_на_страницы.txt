@@ -1,0 +1,119 @@
+====================================================================
+ССЫЛКИ НА СТРАНИЦЫ ДЛЯ СДАЧИ ЛАБОРАТОРНЫХ РАБОТ (GITHUB PAGES)
+Студент: Баянов Дияз, гр. 209 БЗУ
+Репозиторий: https://github.com/Diesel-x/Lab_WEB
+Базовый URL GitHub Pages: https://diesel-x.github.io/Lab_WEB/
+====================================================================
+
+Примечание: 
+Если в Telegram или браузере кириллица в ссылке не открывается кликом, 
+используйте URL-encoded версию (приведена под каждой ссылкой).
+
+--------------------------------------------------------------------
+ЛАБОРАТОРНАЯ РАБОТА № 3 (CSS) — Меню и макеты
+(Обязательное развертывание на GitHub Pages по методичке)
+--------------------------------------------------------------------
+• Задание 1 (Трехколоночный макет):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_3_CSS/task1.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_3_CSS/task1.html
+
+• Задание 2 (Вертикальное меню с выпадающими подменю):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_3_CSS/task2.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_3_CSS/task2.html
+
+• Задание 3 (Вертикальное меню со списком, раскрывающимся вниз):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_3_CSS/task3.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_3_CSS/task3.html
+
+
+--------------------------------------------------------------------
+ЛАБОРАТОРНАЯ РАБОТА № 1 (HTML) — Основы HTML
+--------------------------------------------------------------------
+• Задание 1:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_HTML/task1.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_HTML/task1.html
+
+• Задание 2:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_HTML/task2.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_HTML/task2.html
+
+
+--------------------------------------------------------------------
+ЛАБОРАТОРНАЯ РАБОТА № 2 (HTML) — Изображения и ссылки
+--------------------------------------------------------------------
+• Главная страница (index.html):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_2_HTML/index.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_2_HTML/index.html
+
+• Галерея изображений (images.html):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_2_HTML/images.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_2_HTML/images.html
+
+• Задание 1 (lab1.html):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_2_HTML/lab1.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_2_HTML/lab1.html
+
+• Задание 2 (lab2_l.html — термины и якоря):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_2_HTML/lab2_l.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_2_HTML/lab2_l.html
+
+
+--------------------------------------------------------------------
+ЛАБОРАТОРНАЯ РАБОТА № 3 (HTML) — Таблицы и списки
+--------------------------------------------------------------------
+• Меню / Таблица (menu.html):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_3_HTML/menu.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_3_HTML/menu.html
+
+• Учебник с оглавлением и якорями (учебник.html):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_3_HTML/учебник.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_3_HTML/%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA.html
+
+
+--------------------------------------------------------------------
+ЛАБОРАТОРНАЯ РАБОТА № 1 (CSS) — Селекторы
+--------------------------------------------------------------------
+• Задание 1:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_CSS/task1.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_CSS/task1.html
+
+• Задание 2:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_CSS/task2.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_CSS/task2.html
+
+• Задание 4:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_CSS/task4.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_CSS/task4.html
+
+• Задание 5:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_CSS/task5.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_CSS/task5.html
+
+• Задание 6:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_CSS/task6.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_CSS/task6.html
+
+• Задание 7:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_CSS/task7.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_CSS/task7.html
+
+• Задание 8:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_CSS/task8.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_CSS/task8.html
+
+• Текст (text.html):
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_1_CSS/text.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1_CSS/text.html
+
+
+--------------------------------------------------------------------
+ЛАБОРАТОРНАЯ РАБОТА № 2 (CSS) — Блочная модель и форматирование
+--------------------------------------------------------------------
+• Задание 1:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_2_CSS/task1.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_2_CSS/task1.html
+
+• Задание 2:
+  Прямая:      https://diesel-x.github.io/Lab_WEB/Лабораторная_2_CSS/task2.html
+  URL-encoded: https://diesel-x.github.io/Lab_WEB/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_2_CSS/task2.html
+====================================================================
